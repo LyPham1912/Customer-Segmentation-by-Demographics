@@ -2,34 +2,34 @@
 Customer Segmentation by Demographics using Python
 
 #Mục tiêu cần đạt
-Xác định rõ các nhóm khách hàng dựa trên sở thích và đặc điểm hành vi
-Đề xuất các loại hình du lịch phù hợp với từng phân khúc.
-Xây dựng mô hình dự đoán nhóm khách hàng cho các trường hợp mới.
+- Xác định rõ các nhóm khách hàng dựa trên sở thích và đặc điểm hành vi
+- Đề xuất các loại hình du lịch phù hợp với từng phân khúc.
+- Xây dựng mô hình dự đoán nhóm khách hàng cho các trường hợp mới.
 
 #Nguồn dữ liệu: được thu thập từ kaggle 
-Mục tiêu: dùng để phân tích phân khúc khách hàng theo nhân khẩu học và sở thích du lịch.
-Mô tả: 17 thuộc tính với 11760 dòng dữ liệu và 3 kiểu dữ liệu (int, float, object).
+- Mục tiêu: dùng để phân tích phân khúc khách hàng theo nhân khẩu học và sở thích du lịch.
+- Mô tả: 17 thuộc tính với 11760 dòng dữ liệu và 3 kiểu dữ liệu (int, float, object).
 
 #Các thuộc tính bao gồm (đã bỏ bớt các cột không cần thiết):
 
-UserID: mã định danh người dùng 
-Yearly_avg_view_on_travel_page: Số lượng trung bình lượt xem trang du lịch của người dùng trong một năm.
-preferred_device: Thiết bị người dùng truy cập ứng dụng
-total_likes_on_outstation_checkin_give: Tổng số lượt thích mà người dùng đã dành cho các bài đăng check-in 
-yearly_avg_Outstation_checkins: Số lần trung bình mỗi năm mà người dùng đi du lịch
-member_in_family: Số thành viên trong gia đình của người dùng
-preferred_location_type: Loại địa điểm du lịch mà người dùng yêu thích
-week_since_last_outstation_checkin: Số tuần kể từ lần check-in gần nhất của người dùng.
-working_flag: Cho biết người dùng có đang đi làm hay không.
-Adult_flag: Cho biết người dùng có phải là người trưởng thành hay không
-Daily_Avg_mins_spend_on_traveling_page: Số phút trung bình mỗi ngày mà người dùng dành để xem các trang du lịch.
+- UserID: mã định danh người dùng 
+- Yearly_avg_view_on_travel_page: Số lượng trung bình lượt xem trang du lịch của người dùng trong một năm.
+- preferred_device: Thiết bị người dùng truy cập ứng dụng
+- total_likes_on_outstation_checkin_give: Tổng số lượt thích mà người dùng đã dành cho các bài đăng check-in 
+- yearly_avg_Outstation_checkins: Số lần trung bình mỗi năm mà người dùng đi du lịch
+- member_in_family: Số thành viên trong gia đình của người dùng
+- preferred_location_type: Loại địa điểm du lịch mà người dùng yêu thích
+- week_since_last_outstation_checkin: Số tuần kể từ lần check-in gần nhất của người dùng.
+- working_flag: Cho biết người dùng có đang đi làm hay không.
+- Adult_flag: Cho biết người dùng có phải là người trưởng thành hay không
+- Daily_Avg_mins_spend_on_traveling_page: Số phút trung bình mỗi ngày mà người dùng dành để xem các trang du lịch.
 
 #Tiền xử lý dữ liệu bao gồm: 
 
-Giảm thuộc tính của dữ liệu: Loại bỏ các thuộc tính không cần thiết, giảm kích thước dữ liệu để cải thiện hiệu suất mà không làm mất thông tin quan trọng
-Chuẩn hóa và chuyển đổi dữ liệu: Đưa dữ liệu về cùng một thang đo hoặc định dạng để đảm bảo tính chính xác khi áp dụng các mô hình
-Xử lý dữ liệu thiếu: Giải quyết các giá trị bị thiếu để đảm bảo bộ dữ liệu hoàn chỉnh và sẵn sàng cho phân tích
-Xử lý dữ liệu nhiễu: Loại bỏ các giá trị bất thường để tránh ảnh hưởng đến mô hình phân tích
+- Giảm thuộc tính của dữ liệu: Loại bỏ các thuộc tính không cần thiết, giảm kích thước dữ liệu để cải thiện hiệu suất mà không làm mất thông tin quan trọng
+- Chuẩn hóa và chuyển đổi dữ liệu: Đưa dữ liệu về cùng một thang đo hoặc định dạng để đảm bảo tính chính xác khi áp dụng các mô hình
+- Xử lý dữ liệu thiếu: Giải quyết các giá trị bị thiếu để đảm bảo bộ dữ liệu hoàn chỉnh và sẵn sàng cho phân tích
+- Xử lý dữ liệu nhiễu: Loại bỏ các giá trị bất thường để tránh ảnh hưởng đến mô hình phân tích
 
 #Khám phá dữ liệu bằng các biểu đồ để tìm ra mối liên hệ và thuộc tính có độ ảnh hưởng nhiều nhất
 
