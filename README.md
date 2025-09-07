@@ -1,5 +1,6 @@
 # Customer-Segmentation-by-Demographics
 Customer Segmentation by Demographics using Python
+#Link to report: https://docs.google.com/document/d/1aceoy1vI7E4ND7HUZm8wvlF_oVnS0fWicSVxY2Yyspg/edit?tab=t.0
 
 #Mục tiêu cần đạt
 - Xác định rõ các nhóm khách hàng dựa trên sở thích và đặc điểm hành vi
